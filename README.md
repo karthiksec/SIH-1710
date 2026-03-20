@@ -77,6 +77,9 @@ High contrast UI
 
 Wheelchair-friendly routing
 
+<img width="900" height="600" alt="proposed_solution" src="https://github.com/user-attachments/assets/06ffb70c-a21a-460d-9024-c8fd77a2ab2c" />
+
+
 ## Use Cases
 1. Find Platform
 
@@ -105,6 +108,8 @@ System provides audio guidance
 5. Emergency Navigation
 
 Guides user to nearest exit quickly
+
+<img width="900" height="600" alt="usecase_diagram" src="https://github.com/user-attachments/assets/8d8e6d2f-efa4-46b5-8ac1-78bc81b19d1f" />
 
 ## Technology Stack
 Frontend
