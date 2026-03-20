@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:20.03.2026
+## Register Number:212223220043
+## Name:KARTHIK G.
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -12,15 +12,161 @@ Ministry of Railway
 
 ## Idea
 
+The idea is to build a Smart Indoor Navigation System that helps passengers easily find facilities and locations inside railway stations using AI-powered navigation, real-time updates, and multi-platform access.
+
+Unlike traditional static maps, this system provides:
+
+📍 Live step-by-step navigation
+
+🗺️ 3D interactive station maps
+
+🎤 Voice assistance for visually impaired users
+
+📡 Real-time updates using sensors and admin control
+
+The system will be accessible via:
+
+Mobile applications
+
+Digital kiosks inside stations
+
+Integration with existing railway apps
 
 ## Proposed Solution / Architecture Diagram
+We propose a multi-platform navigation ecosystem consisting of:
 
+1. Mobile Application
+
+3D interactive maps of station
+
+Route guidance from current location
+
+Voice navigation
+
+Multi-language support
+
+2. Smart Kiosks
+
+Installed at key points in station
+
+Touch-based navigation system
+
+QR code to transfer route to mobile
+
+3. Navigation Engine
+
+Uses shortest path algorithms (like Dijkstra/A*)
+
+Indoor positioning using BLE beacons/WiFi
+
+Real-time congestion-aware routing
+
+4. Backend System
+
+Stores station maps and facility data
+
+Admin dashboard for updates
+
+API integration with railway services
+
+5. Accessibility Module
+
+Voice guidance
+
+High contrast UI
+
+Wheelchair-friendly routing
 
 ## Use Cases
+1. Find Platform
 
+User enters train number
+
+System shows platform number and route
+
+2. Locate Facilities
+
+User searches "Restroom" or "Food Court"
+
+App shows nearest option with directions
+
+3. Accessibility Navigation
+
+Provides wheelchair-friendly paths
+
+Avoids stairs and crowded areas
+
+4. Voice Navigation
+
+User gives voice command
+
+System provides audio guidance
+
+5. Emergency Navigation
+
+Guides user to nearest exit quickly
 
 ## Technology Stack
+Frontend
 
+Flutter / React Native (Mobile App)
+
+React.js (Kiosk Interface)
+
+Backend
+
+Node.js / Django
+
+Database
+
+MongoDB / Firebase
+
+Mapping & Visualization
+
+Mapbox / Three.js / Unity (for 3D maps)
+
+AI & ML
+
+NLP for voice commands
+
+Pathfinding algorithms
+
+IoT & Hardware
+
+BLE Beacons
+
+WiFi-based indoor positioning
+
+Sensors for crowd detection
 
 ## Dependencies
 
+Frontend
+
+flutter / react-native
+
+mapbox-gl
+
+three.js
+
+Backend
+
+express / django
+
+socket.io (real-time updates)
+
+AI / Voice
+
+speech-to-text APIs
+
+NLP libraries
+
+Database
+
+mongoose / firebase SDK
+
+Others
+
+REST APIs
+
+WebSockets for live updates
